@@ -4,7 +4,7 @@ require_once 'db.php';
 $link = mysqli_connect('localhost', 'root', '', 'waf');
 
 // New password
-$new_password = "daka"; // Choose a new strong password
+$new_password = ""; // Choose a new strong password
 $hashed_password = password_hash($new_password, PASSWORD_DEFAULT);
 
 // Admin username
